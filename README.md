@@ -1,6 +1,6 @@
 # Microsoft_case_competition
 
-The following provides a high-level overview of the intent of this project.
+The following provides a high-level overview of the intent.
 
 Business Need: The project aims to fulfill two gaps in brick and mortal retail stores. The target customer for this MVP is Best Buy Canada. 
 
