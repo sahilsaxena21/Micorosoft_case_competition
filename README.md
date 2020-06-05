@@ -1,4 +1,4 @@
-# Microsoft_case_competition
+# Microsoft Case Competition
 
 The following provides a high-level overview of the intent.
 
