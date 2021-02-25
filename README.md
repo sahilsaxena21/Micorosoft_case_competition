@@ -3,10 +3,10 @@
 
 ## Business Opportunity
 
-| Gap | Status Quo  | Proposed AI Solution  |
+| Business Opportunity | Status Quo  | Proposed AI Solution  |
 | ---   | :-: | :-: |
-| Lack of understanding of the quality of customer in-store experience | In-store sales data | Combine with in-store video analytics |
-| Personalizing the customer experience through mobile app | Not addressed | Recommender system in mobile app |
+| Understand the quality of customer in-store experience | In-store sales data | Combine with in-store video analytics |
+| Personalize the customer experience through mobile app | Not addressed | Recommender system in mobile app |
 
 ## Project Success Metrics
 
