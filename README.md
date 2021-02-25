@@ -20,9 +20,9 @@
 
 The following data will be used as input to the proposed AI solution:
 
-*	In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges)
+* Images from video recordings gathered from the in-store surveillance system
+* In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges)
 *	Product and service list with detailed descriptions
-*	Video recordings gathered from in-store surveillance system
 
 ### Outputs
 
