@@ -25,9 +25,17 @@ Target Customer: Best Buy Canada
 
 ## Technical Implementation Overview
 
-| Proposed AI Solution | Input Data | Demonstrating Technical Feasbility  |
+| Proposed AI Solution | Input Data  | Demonstrating Technical Feasbility  |
 | ---   | :-: | :-: |
-| Video Analytics | * Images from video recordings gathered from the in-store surveillance system| Extract in-store customer's age and gender, footfall traffic, Store hot zones from images taken from the in-store video surveillance system | Personalizer App | * In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges) *	Product and service list with detailed descriptions | Probabilistic classifier to rank customer affinity to product categories |
+| Video Analytics |  Images from video recordings gathered from the in-store surveillance system | Extract in-store customer's age and gender, footfall traffic,and the map the person to pre-defined areas within the sotre | Combine with in-store video analytics |
+| Personalizer App | In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges) *	Product and service list with detailed descriptions | Probabilistic classifier to rank customer affinity to product categories |
+
+
+
+
+|  |  |   |
+| ---   | :-: | :-: |
+|  | *, Store hot zones from images taken from the in-store video surveillance system |  | *  |  |
 
 ### Prototype Architecture
 
