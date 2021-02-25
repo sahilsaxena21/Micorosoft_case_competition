@@ -75,6 +75,10 @@ The proposed architecture as illustrated above. The architecture is specifically
 
 As a demonstration of the technical feasibility of our proposed solution, we use a synthetic dataset adapted from the Criteo dataset, a well known dataset of website ads that can be used to optimize the Click-Through Rate (CTR). The dataset contains a record of historic customer purchases, which is thought to be readily available from the organization’s database. We then test the performance of the recommender engine on the sample dataset. The table below outlines the model performance results.
 
+| Challenge | Status Quo  | Proposed AI Solution  | Proposed AI Solution  |
+| ---   | :-: | :-: | :-:  |
+| Gap 1: Lack of understanding of the quality of customer in-store experience | In-store sales data | Combine with in-store video analytics | Proposed AI Solution  |
+
 | evaluation_type | Precision  | Recall  | F1-Score |
 | ---   | :-: | :-: |
 | Classification | 0.83 | 0.83 | 0.83 |
