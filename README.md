@@ -18,21 +18,18 @@ Target Customer: Best Buy Canada
 
 ## Dataset
 
-### Inputs
-
 The following data will be used as input to the proposed AI solution:
 
 * Images from video recordings gathered from the in-store surveillance system
 * In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges)
 *	Product and service list with detailed descriptions
 
-### Outputs
+## Minimum Viable Product
 
-The following data will be the output from the proposed AI solution:
+The following are the product features are selected for the Minimum Viable Product (MVP):
 
-*	In-store customer age and gender
-*	Dwell time of customer-product interactions
-*	Footfall traffic
+*	Personalizer App: Recommender Engine to deliver personalized insights
+*	Video Analytics: In-store customer's age and gender, footfall traffic, Store hot zones
 
 ## Technical Implementation Overview
 Please refer to the [sample dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) that visualizes the insights gathered by features described below.
