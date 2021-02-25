@@ -32,7 +32,7 @@ Note: The entire video analytics process will be anonymized i.e. customers will 
 *	Personalized shopping experiences are delivered through tailored product or service recommendations to optimally support the customer through the “active evaluation” phase to maximize probability of arriving at the “moment of commitment” (refer the Framework). It will also be designed to trigger new “moments of inspiration”.
 *	This will be achieved by using classification learning based recommender system which will match the customer to a curated list of products/services based on features such as customer’s historic buying patterns, buying patterns of other similar users as the customer, and the customer’s search history using the app. 
 
-Note: It is proposed that both of these AI solutions inform each other. For example, the in-store manager will be able to make in-store optimization decisions based on general market trends. Please refer to the Sample Dashboard (https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) on the insights unlocked by our proposed app.
+Note: It is proposed that both of these AI solutions inform each other. For example, the in-store manager will be able to make in-store optimization decisions based on general market trends. Please refer to the [Sample Dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) on the insights unlocked by our proposed app.
 
 
 ## Dataset
@@ -73,43 +73,20 @@ _Content-Based Recommendation Engine_
 
 The proposed architecture as illustrated above. The architecture is specifically designed to be scalable. 
 
-As a demonstration of the technical feasibility of our proposed solution, we use a synthetic dataset adapted from the Criteo dataset, a well known dataset of website ads that can be used to optimize the Click-Through Rate (CTR). The dataset contains a record of historic customer purchases, which is thought to be readily available from the organization’s database. We then test the performance of the recommender engine on the sample dataset. The table below outlines the model performance results
+As a demonstration of the technical feasibility of our proposed solution, we use a synthetic dataset adapted from the Criteo dataset, a well known dataset of website ads that can be used to optimize the Click-Through Rate (CTR). The dataset contains a record of historic customer purchases, which is thought to be readily available from the organization’s database. We then test the performance of the recommender engine on the sample dataset. The table below outlines the model performance results.
 
-
+| evaluation_type | Precision  | Recall  | F1-Score |
+| ---   | :-: | :-: |
+| Classification | 0.83 | 0.83 | 0.83 |
 
 Please refer to the two notebooks as follows:
 1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** model
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Service** 
 
 
-Appendix A - Minimum Viable Product
-1.	How does recommender system work?
-Please refer to the Github repo for more details on the implementation.
-As a demonstration of the technical feasibility of our proposed solution, we use a synthetic dataset adapted from the Criteo dataset, a well known dataset of website ads that can be used to optimize the Click-Through Rate (CTR). The dataset contains a record of historic customer purchases, which is thought to be readily available from the organization’s database. An overview of the dataset is as illustrated below. 
+## Insights from App
 
-We build a classification model to predict the product category that a customer shows the highest affinity towards.
-Customer ID	Customer Name	Product Category	Purchase Value
-32423141	Gary Roberts	Video Games and Accessories	$50.45
-34324332	Darren Fynn	Karaoke Audio and Recording	$150.69
-34234123	Owain Metsy	Outdoor Living	$55.52
-23423134	Frank Stable	Wearable Tech, Health and Fitness	$110.47
-The model is based on LightGBM, which is a gradient boosting framework that uses tree-based learning algorithms. Finally, we take advantage of MMLSpark library, which allows LightGBM to be called in a Spark environment and be computed distributely. 
-2.	How does the video analytics tool work?
-Please refer to the Github repo for more details on the implementation and the sample image used.
-A summary of the workings of the Computer Vision technology is shown below. The Computer Vision Analyze Image Rest API is used to extract the following metadata :
-•	Extract the number of people from a given image
-•	Extract the demographics information such as age and gender
-•	Extract the location of the person within the store using bounding box coordinates
-
-
-Azure’s Computer Vision Technology at Work
- 
-
-Output from Video Analytics
- 
-
-
-
+Please refer to the [Sample Dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) for an illustration of the insights gathered from our App.
 
 
 
