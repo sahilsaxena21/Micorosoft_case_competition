@@ -75,7 +75,6 @@ As illustrated in the above figure, **Azure's Computer Vision Analyze Image Rest
 * date and time of when the image was taken
 * age and gender of detected individuals in the input image
 *	the location of the person within the store using bounding box coordinates. This is then mapped to particular areas within the store.
-*	the number of people in the input image
 
 ## Benefits of Proposed Approach
 Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Please refer to the attached [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
