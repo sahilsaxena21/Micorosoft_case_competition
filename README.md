@@ -59,15 +59,6 @@ Please refer to the two notebooks as follows:
 1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Service** 
 
-For demonstration purposes, our app uses a synthetic dataset adapted from the Criteo dataset. A sample of the dataset is as provided below. The synthetic dataset emulates a dataset of historic customer purchases made through the Best Buy mobile app. This dataset is thought to be readily available and accessible. We then build a classification model to predict the product category that a customer shows the highest affinity towards.
-
-| Customer ID | Customer Name  | Product Category  | Purchase Value  |
-| ---   | :-: | :-: | :-:  |
-| 325478 | Gary Roberts | Video Game and Accessories | $50.45  |
-| 325479 | Darryn Fynn | Karaoke Audio and Recording | $150.69  |
-| 325480 | Frank Stable | Wearable Tech, Health and Fitness | $20.20  |
-| 325481 | Hiba Tsonga | Outdoor Living | $20.60  |
-
 ### Video Analytics Feature
 Please refer to the [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
 
