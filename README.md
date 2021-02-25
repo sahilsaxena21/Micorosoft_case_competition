@@ -5,6 +5,8 @@ The product was judged in various categories including **orginality**, **technic
 
 Our Team's Result: Top 15% out of 300+ submissions
 
+# Team's Idea Submission Overview
+
 The following provides a summary of our team's AI use case and an overview of its technical impelementation.
 
 ## Business Opportunity
