@@ -59,6 +59,8 @@ Please refer to the two notebooks as follows:
 1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Service** 
 
+<sub> The last iteration of the deployment did not proceed due to limited cluster resources.
+
 For demonstration purposes, our app uses a synthetic dataset adapted from the Criteo dataset. A sample of the dataset is as provided below. The synthetic dataset emulates a dataset of historic customer purchases made through the Best Buy mobile app. This dataset is thought to be readily available and accessible. We then build a classification model to predict the product category that a customer shows the highest affinity towards.
 
 | Customer ID | Customer Name  | Product Category  | Purchase Value  |
