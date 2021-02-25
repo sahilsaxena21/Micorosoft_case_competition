@@ -55,18 +55,6 @@ The following data will be the output from the proposed AI solution:
 
 ## Technical Implementation Overview
 
-### Video Analytics Feature
-
-![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/output.JPG)
-
-
-As illustrated in the above figure, **Azure's Computer Vision Analyze** Image Rest API is used to extract the following metadata :
-*	Extract the number of people from a given image
-*	Extract the demographics information such as age and gender
-*	Extract the location of the person within the store using bounding box coordinates
-
-Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
-
 ### Content-Based Recommendation Engine Feature
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
@@ -83,6 +71,16 @@ Please refer to the two notebooks as follows:
 1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** model
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Service** 
 
+### Video Analytics Feature
+
+![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/sample_image_read.JPG)
+
+As illustrated in the above figure, **Azure's Computer Vision Analyze** Image Rest API is used to extract the following metadata from the sample image provided:
+*	Extracts the number of people from a given image
+*	Extracts the demographics information such as age and gender
+*	Extracts the location of the person within the store using bounding box coordinates
+
+Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
 
 ## Insights from App
 
