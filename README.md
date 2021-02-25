@@ -23,23 +23,15 @@ Target Customer: Best Buy Canada
 1)	Maximize conversion rate 
 2)	Maximize total ticket from the sale
 
-
-## Dataset
-
-The following data will be used as input to the proposed AI solution:
-
-* Images from video recordings gathered from the in-store surveillance system
-* In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges)
-*	Product and service list with detailed descriptions
-
-## Minimum Viable Product
-
-The following product features were selected for the Minimum Viable Product (MVP):
-
-*	Personalizer App: Probabilistic classifier to rank customer affinity to product categories
-*	Video Analytics: Extract in-store customer's age and gender, footfall traffic, Store hot zones from images taken from the in-store video surveillance system
-
 ## Technical Implementation Overview
+
+| Proposed AI Solution | Input Data | Demonstrating Technical Feasbility  |
+| ---   | :-: | :-: |
+| Video Analytics | 
+* Images from video recordings gathered from the in-store surveillance system| Extract in-store customer's age and gender, footfall traffic, Store hot zones from images taken from the in-store video surveillance system |
+| Personalizer App | 
+* In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges)
+*	Product and service list with detailed descriptions | Probabilistic classifier to rank customer affinity to product categories |
 
 ### Prototype Architecture
 
