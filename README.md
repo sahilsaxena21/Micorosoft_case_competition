@@ -1,7 +1,9 @@
-# Microsoft Case Competition
+# Microsoft Retail Analytics Case Competition
 <sub>Team Result: Top 15% out of 300+ submissions</sub>
 
 ## Business Opportunity
+
+Target Customer: Best Buy Canada
 
 | Business Opportunity | Status Quo  | Proposed AI Solution  |
 | ---   | :-: | :-: |
