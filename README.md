@@ -32,33 +32,54 @@ Note: The entire video analytics process will be anonymized i.e. customers will 
 *	Personalized shopping experiences are delivered through tailored product or service recommendations to optimally support the customer through the “active evaluation” phase to maximize probability of arriving at the “moment of commitment” (refer the Framework). It will also be designed to trigger new “moments of inspiration”.
 *	This will be achieved by using classification learning based recommender system which will match the customer to a curated list of products/services based on features such as customer’s historic buying patterns, buying patterns of other similar users as the customer, and the customer’s search history using the app. 
 
-Note: It is proposed that both of these AI solutions inform each other. For example, the in-store manager will be able to make in-store optimization decisions based on general market trends. Please refer to the Sample Dashboard on the insights unlocked by our proposed app.
-4.	What data will be used?
+Note: It is proposed that both of these AI solutions inform each other. For example, the in-store manager will be able to make in-store optimization decisions based on general market trends. Please refer to the Sample Dashboard (https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) on the insights unlocked by our proposed app.
+
+
+## Dataset
+
+_Inputs to AI Models_
 
 The following data will be used as input to the proposed AI solution:
 
-●	In-store and mobile app transactions by customer (orders, returns, exchanges)
-●	News scraped from various online technology websites
-●	Product and service list with detailed descriptions
-●	App search term history by customer
+*	In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges)
+*	Product and service list with detailed descriptions
+*	Video recordings gathered from in-store surveillance system
+
+_Outputs by AI Models_
 
 The following data will be the output from the proposed AI solution:
 
-●	In-store customer age and gender
-●	Dwell time of customer-product interactions
-●	Footfall traffic
-●	Emerging market trends across the tech websites (using a similarity-based algorithm)
-●	Customer segmentation using topic modelling
+*	In-store customer age and gender
+*	Dwell time of customer-product interactions
+*	Footfall traffic
+
+## Technical Implementation Overview
+
+_Video Analytics_
+
+![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/output.JPG)
 
 
-5.	What MS technologies are chosen? Do they meet the needs? 
-Please refer to the proposed architecture as illustrated below. The architecture is specifically designed to be scalable as per business requirements. Please refer to this notebook, for some of the sizing decisions to be considered and its business implications.
- 
+As illustrated in the above figure, **Azure's Computer Vision Analyze** Image Rest API is used to extract the following metadata :
+*	Extract the number of people from a given image
+*	Extract the demographics information such as age and gender
+*	Extract the location of the person within the store using bounding box coordinates
+
+Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
+
+_Content-Based Recommendation Engine_
+
+![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/architecture.png)
+
+The proposed architecture as illustrated above. The architecture is specifically designed to be scalable. 
+
+As a demonstration of the technical feasibility of our proposed solution, we use a synthetic dataset adapted from the Criteo dataset, a well known dataset of website ads that can be used to optimize the Click-Through Rate (CTR). The dataset contains a record of historic customer purchases, which is thought to be readily available from the organization’s database. We then test the performance of the recommender engine on the sample dataset. The table below outlines the model performance results
 
 
 
-
-
+Please refer to the two notebooks as follows:
+1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** model
+2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Service** 
 
 
 Appendix A - Minimum Viable Product
