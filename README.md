@@ -54,7 +54,7 @@ As a demonstration of the technical feasibility of our proposed solution, we use
 ### Video Analytics Feature
 Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
 
-![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/computer_vision_api_output.JPG
+![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/computer_vision_api_output.JPG)
 
 As illustrated in the above figure, **Azure's Computer Vision Analyze** Image Rest API is used to extract the following metadata from the sample image provided:
 *	Extracts the number of people from a given image
