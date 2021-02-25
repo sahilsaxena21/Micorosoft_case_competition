@@ -2,10 +2,10 @@
 
 ## Business Problem
 
-| Challenge | Status Quo  | Proposed AI Solution  |
+| Gap | Status Quo  | Proposed AI Solution  |
 | ---   | :-: | :-: |
-| Gap 1: Lack of understanding of the quality of customer in-store experience | In-store sales data | Combine with in-store video analytics |
-| Gap 2: Personalizing the customer experience through mobile app | Not addressed | Recommender system in mobile app |
+| Lack of understanding of the quality of customer in-store experience | In-store sales data | Combine with in-store video analytics |
+| Personalizing the customer experience through mobile app | Not addressed | Recommender system in mobile app |
 
 ## Project Success Metrics
 
@@ -33,6 +33,7 @@ The following data will be the output from the proposed AI solution:
 *	Footfall traffic
 
 ## Technical Implementation Overview
+Please refer to the [sample dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) that visualizes the insights gathered by features described below.
 
 ### Content-Based Recommendation Engine Feature
 
@@ -76,7 +77,3 @@ Note: The entire video analytics process will be **anonymized** i.e. customers w
 **App Recommender System (Azure Machine Learning)**
 
 *	Personalized shopping experiences are delivered through **tailored product recommendations** to optimally support the customer through the **“active evaluation”** phase to maximize probability of arriving at the [moment of commitment](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf). It will also be designed to trigger new [moments of inspiration](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf)
-
-## Insights from App
-
-Please refer to the [Sample Dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) for an illustration of the insights gathered from our App.
