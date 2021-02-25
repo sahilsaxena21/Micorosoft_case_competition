@@ -7,7 +7,7 @@ Our Team's Result: Top 15% out of 300+ submissions
 
 # Team's Idea Submission Overview
 
-The following provides a summary of our team's AI use case and an overview of its technical impelementation.
+The following provides a summary of our team's selected AI use case, and provides an overview of its technical impelementation.
 
 ## Business Opportunity
 
