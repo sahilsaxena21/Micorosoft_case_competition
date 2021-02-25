@@ -45,7 +45,7 @@ The following product features were selected for the Minimum Viable Product (MVP
 
 ![Prototype Architecture](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
-As per the proposed architecture the following Azure services are used in the above Notebooks:
+As per the proposed architecture, the following Azure services are used in the above Notebooks:
 
 * **Azure Blob Storage** is a storage service optimized for storing massive amounts of unstructured data. The input data is stored here.
 * **Azure Databricks** is a managed Apache Spark cluster where model training and evaluating is performed.
