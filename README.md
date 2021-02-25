@@ -7,13 +7,14 @@
 | Gap 1: Lack of understanding of the quality of customer in-store experience | In-store sales data | Combine with in-store video analytics |
 | Gap 2: Personalizing the customer experience through mobile app | Not addressed | Recommender system in mobile app |
 
-2.	What are the success metrics of the proposed AI solution?
+## Project Success Metrics
+
 The success metrics of the proposed AI solution are:
 1)	Maximize conversion rate 
 2)	Maximize total ticket from the sale
 
 
-3.	What are the benefits of the proposed AI solution and how are they unique?
+## Benefits of Proposed Approach
 Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Moreover, our proposed AI solutions attempts to address the business needs by taking a deep dive into the consumer behaviour. Please refer to the attached Customer Journey Theoretical Framework that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
 Video Analytics (MS Computer Vision)
 ●	Most (if not all) Best Buy stores already have an in-store surveillance system in place. This makes the proposed solution readily adoptable.
