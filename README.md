@@ -30,13 +30,6 @@ Target Customer: Best Buy Canada
 | Video Analytics |  Images from video recordings gathered from the in-store surveillance system | Extract in-store customer's age, gender, and location of person within the store mapped to pre-defined areas of the store (e.g Isle 3, cashier queue etc.) | Combine with in-store video analytics |
 | Personalizer App | In-store and mobile app transactions and other activity performed by the customer (orders, returns, exchanges) *	Product and service list with detailed descriptions | Probabilistic classifier to rank customer affinity to product categories |
 
-
-
-
-|  |  |   |
-| ---   | :-: | :-: |
-|  | *, Store hot zones from images taken from the in-store video surveillance system |  | *  |  |
-
 ### Prototype Architecture
 
 ![Prototype Architecture](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
