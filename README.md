@@ -28,7 +28,7 @@ Target Customer: Best Buy Canada
 | Proposed AI Solution | Input Data  | Demonstrating Technical Feasbility  |
 | ---   | --- | --- |
 | Video Analytics |  Images from video recordings gathered from the in-store surveillance system | Extract in-store customer's age, gender, and the location of the detected person within the store, mapped to pre-defined sections of the store (e.g isle #, cashier queues etc.) |
-| Mobile App Product Recommendations | In-app product purchases and product listing with detailed descriptions | Probabilistic classifier to rank customer affinity to product categories |
+| Mobile App Product Recommendations | Historic customer purchase data through mobile app, product listing with detailed descriptions | Probabilistic classifier to rank customer affinity to product categories |
 
 ### Prototype Architecture
 
