@@ -49,8 +49,7 @@ The proposed architecture is as illustrated above. The following Azure services 
 * **Azure Container Registry** is used to package the scoring script as a container image which is used to serve the model in production.
 * **Azure Kubernetes Service** is used to deploy the trained models to web or app services.
 
-As a demonstration of the technical feasibility of our proposed solution, we use a synthetic dataset adapted from the Criteo dataset, a well known dataset of website ads that can be used to optimize the Click-Through Rate (CTR). The dataset contains a record of historic customer purchases, which is thought to be readily available from the organization’s database. An overview of the dataset is as provided below.
-
+As a demonstration of the technical feasibility of our proposed solution, we use a synthetic dataset adapted from the Criteo dataset. The dataset contains a record of historic customer purchases, which is thought to be readily available in Best Buy's database. A sample of the dataset is as provided below. We then build a classification model to predict the **product category** that a customer shows the highest affinity towards.
 
 | Customer ID | Customer Name  | Product Category  | Purchase Value  |
 | ---   | :-: | :-: | :-:  |
@@ -58,8 +57,6 @@ As a demonstration of the technical feasibility of our proposed solution, we use
 | 325479 | Darryn Fynn | Karaoke Audio and Recording | $150.69  |
 | 325480 | Frank Stable | Wearable Tech, Health and Fitness | $20.20  |
 | 325481 | Hiba Tsonga | Outdoor Living | $20.60  |
-
-We build a classification model to predict the product category that a customer shows the highest affinity towards. The synthetic dataset yeilds a model *F1-score of 0.85*
 
 ### Video Analytics Feature
 Please refer to the [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
