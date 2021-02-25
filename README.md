@@ -59,7 +59,7 @@ Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition
 As illustrated in the above figure, **Azure's Computer Vision Analyze** Image Rest API is able to extract the following metadata from the sample image provided:
 *	the number of people from a given image
 *	age and gender of each person
-*	the location of the person within the store using bounding box coordinates
+*	the location of the person within the store using bounding box coordinates. This can be mapped to particular areas within the store.
 
 ## Benefits of Proposed Approach
 Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Please refer to the attached [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
