@@ -37,7 +37,7 @@ Note: It is proposed that both of these AI solutions inform each other. For exam
 
 ## Dataset
 
-#_Inputs to AI Models_
+# Inputs to AI Models
 
 The following data will be used as input to the proposed AI solution:
 
@@ -45,7 +45,7 @@ The following data will be used as input to the proposed AI solution:
 *	Product and service list with detailed descriptions
 *	Video recordings gathered from in-store surveillance system
 
-#_Outputs by AI Models_
+# Outputs by AI Models
 
 The following data will be the output from the proposed AI solution:
 
@@ -55,7 +55,7 @@ The following data will be the output from the proposed AI solution:
 
 ## Technical Implementation Overview
 
-#_Video Analytics_
+# Video Analytics Feature
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/output.JPG)
 
@@ -67,7 +67,7 @@ As illustrated in the above figure, **Azure's Computer Vision Analyze** Image Re
 
 Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
 
-#_Content-Based Recommendation Engine_
+# Content-Based Recommendation Engine Feature
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/architecture.png)
 
