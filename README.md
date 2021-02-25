@@ -37,6 +37,10 @@ Please refer to the [sample dashboard](https://github.com/sahilsaxena21/case_com
 
 ### Content-Based Recommendation Engine Feature
 
+Please refer to the two notebooks as follows:
+1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** model
+2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Service** 
+
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
 The proposed architecture as illustrated above. The architecture is specifically designed to be scalable. 
@@ -47,11 +51,8 @@ As a demonstration of the technical feasibility of our proposed solution, we use
 | ---   | :-: | :-: | :-:  |
 | Classification | 0.83 | 0.83 | 0.83  |
 
-Please refer to the two notebooks as follows:
-1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** model
-2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Service** 
-
 ### Video Analytics Feature
+Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/sample_image_read.JPG)
 
@@ -59,8 +60,6 @@ As illustrated in the above figure, **Azure's Computer Vision Analyze** Image Re
 *	Extracts the number of people from a given image
 *	Extracts the demographics information such as age and gender
 *	Extracts the location of the person within the store using bounding box coordinates
-
-Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
 
 ## Benefits of Proposed Approach
 Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Please refer to the attached [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
