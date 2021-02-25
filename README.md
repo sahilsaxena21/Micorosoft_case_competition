@@ -34,7 +34,7 @@ Target Customer: Best Buy Canada
 
 ![Prototype Architecture](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
-The arhetecture employed to demonstrate technical feasbility of this idea is as illustrated above. The protytype architecture uses the following Azure services:
+The architecture employed to demonstrate technical feasbility of this idea is as illustrated above. The protytype architecture uses the following Azure services:
 
 * **Azure Blob Storage**
 * **Azure Databricks**
