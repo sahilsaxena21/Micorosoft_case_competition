@@ -57,7 +57,7 @@ As illustrated in the above figure, **Azure's Computer Vision Analyze Image Rest
 * age and gender of detected individuals in the input image
 *	the location of the person within the store using bounding box coordinates. This is then mapped to particular areas within the store.
 
-## Benefits of Proposed Approach
+## Theoretical Underpinnings of Proposed Solution
 Please refer to the [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
 
 **Video Analytics (Azure Computer Vision Analyze Image Rest API)**
