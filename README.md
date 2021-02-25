@@ -32,7 +32,6 @@ The following product features were selected for the Minimum Viable Product (MVP
 *	Video Analytics: In-store customer's age and gender, footfall traffic, Store hot zones
 
 ## Technical Implementation Overview
-Please refer to the [sample dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) that visualizes the insights gathered by features described below.
 
 ### Content-Based Recommendation Engine Feature
 
@@ -83,3 +82,7 @@ Note: The entire video analytics process will be **anonymized** i.e. customers w
 **App Recommender System (Azure Machine Learning)**
 
 *	Personalized shopping experiences are delivered through **tailored product recommendations** to optimally support the customer through the **“active evaluation”** phase to maximize probability of arriving at the [moment of commitment](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf). It will also be designed to trigger new [moments of inspiration](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf)
+
+
+## Insights
+Please refer to the [sample dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) that visualizes the insights gathered by features described below.
