@@ -49,9 +49,9 @@ Please refer to the two notebooks as follows:
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
-The proposed architecture is as illustrated above. The following Azure services are used in the above Notebooks:
+As per the proposed architecture the following Azure services are used in the above Notebooks:
 
-* **Azure Blob Storage** is a storage service optimized for storing massive amounts of unstructured data. In this case, the input data is stored here.
+* **Azure Blob Storage** is a storage service optimized for storing massive amounts of unstructured data. The input data is stored here.
 * **Azure Databricks** is a managed Apache Spark cluster where model training and evaluating is performed.
 * **Azure Machine Learning service** is used in this scenario to register the machine learning model.
 * **Azure Container Registry** is used to package the scoring script as a container image which is used to serve the model in production.
