@@ -43,7 +43,7 @@ Please refer to the two notebooks as follows:
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
-The proposed architecture as illustrated above. The architecture is specifically designed to be scalable. 
+The proposed architecture is as illustrated above.
 
 As a demonstration of the technical feasibility of our proposed solution, we use a synthetic dataset adapted from the Criteo dataset, a well known dataset of website ads that can be used to optimize the Click-Through Rate (CTR). The dataset contains a record of historic customer purchases, which is thought to be readily available from the organization’s database. We then test the performance of the recommender engine on the sample dataset. The table below outlines the model performance results.
 
