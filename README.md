@@ -49,7 +49,7 @@ The proposed architecture is as illustrated above. The following Azure services 
 * **Azure Container Registry** is used to package the scoring script as a container image which is used to serve the model in production.
 * **Azure Kubernetes Service** is used to deploy the trained models to web or app services.
 
-For demonstration purposes, our app uses a synthetic dataset adapted from the Criteo dataset. A sample of the dataset is as provided below. The dataset contains a record of historic customer purchases through the Best Buy mobile app, which is thought to be readily available in Best Buy's database. We then build a classification model to predict the **product category** that a customer shows the highest affinity towards.
+For demonstration purposes, our app uses a synthetic dataset adapted from the Criteo dataset. A sample of the dataset is as provided below. The dataset contains a record of historic customer purchases through the Best Buy mobile app, which is thought to be readily available in the organization's database. We then build a classification model to predict the **product category** that a customer shows the highest affinity towards.
 
 | Customer ID | Customer Name  | Product Category  | Purchase Value  |
 | ---   | :-: | :-: | :-:  |
