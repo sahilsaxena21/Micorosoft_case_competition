@@ -3,7 +3,9 @@ In this competition, teams were challenged to envision an AI use case within the
 
 The product was judged in various categories including **orginality**, **technical feasibility** and **impact potential**.
 
-Team Result: Top 15% out of 300+ submissions
+The following provides a summary of our team's AI use case and an overview of its technical impelementation.
+
+Our Team's Result: Top 15% out of 300+ submissions
 
 ## Business Opportunity
 
