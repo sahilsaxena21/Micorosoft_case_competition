@@ -53,7 +53,7 @@ Please refer to the [Notebook](https://github.com/sahilsaxena21/case_competition
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/sample_image_read.png)
 
-As illustrated in the above figure, **Azure's Computer Vision Analyze Image Rest API** is able to extract the following metadata from the sample image provided:
+As illustrated in the above figure, **Azure's Computer Vision Analyze Image Rest API** is able to extract the following metadata from the sample image [sample_image](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/img_1_jpeg.jpg) provided:
 * age and gender of detected individuals in the input image
 *	the location of the person within the store using bounding box coordinates. This is then mapped to particular areas within the store.
 
