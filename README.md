@@ -45,7 +45,7 @@ The architecture employed to demonstrate technical feasbility of this idea is as
 ### Content-Based Recommendation Engine Feature
 
 Please refer to the two notebooks demonstrating technical feasbility of this feature as below:
-1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model
+1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model that ranks a customer's affinity to product categories
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Services** 
 
 ### Video Analytics Feature
