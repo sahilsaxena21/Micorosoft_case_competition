@@ -10,7 +10,6 @@
 
 ## Project Success Metrics
 
-The success metrics of the proposed AI solution are:
 1)	Maximize conversion rate 
 2)	Maximize total ticket from the sale
 
