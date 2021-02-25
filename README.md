@@ -1,7 +1,7 @@
 # Microsoft Case Competition
 <sub>Team Result: Top 15% out of 300+ submissions</sub>
 
-## Business Problem
+## Business Opportunity
 
 | Gap | Status Quo  | Proposed AI Solution  |
 | ---   | :-: | :-: |
