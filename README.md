@@ -16,7 +16,7 @@
 
 ## Dataset
 
-### Inputs to AI Models
+### Inputs
 
 The following data will be used as input to the proposed AI solution:
 
@@ -24,7 +24,7 @@ The following data will be used as input to the proposed AI solution:
 *	Product and service list with detailed descriptions
 *	Video recordings gathered from in-store surveillance system
 
-### Outputs by AI Models
+### Outputs
 
 The following data will be the output from the proposed AI solution:
 
