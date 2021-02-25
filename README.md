@@ -1,4 +1,6 @@
 # Microsoft Retail Analytics Case Competition
+In this competition, teams were challenged to envision a revolutionary idea within the retail and ecommerce space and then demonstrate its technical feasibility by developing a prototype using Microsoft Azure's Cloud Services. The product was judged in five categories including **orginality**, **technical feasibility** and **impact potential**.
+
 <sub>Team Result: Top 15% out of 300+ submissions</sub>
 
 ## Business Opportunity
