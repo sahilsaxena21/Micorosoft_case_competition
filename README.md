@@ -41,7 +41,7 @@ The following product features were selected for the Minimum Viable Product (MVP
 
 ## Technical Implementation Overview
 
-### Architecture
+### Prototype Architecture
 
 ![Prototype Architecture](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
