@@ -59,20 +59,17 @@ As illustrated in the above figure, **Azure's Computer Vision Analyze Image Rest
 *	the location of the person within the store using bounding box coordinates. This is then mapped to particular areas within the store.
 
 ## Benefits of Proposed Approach
-Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Please refer to the attached [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
+Please refer to the [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
 
 **Video Analytics (Azure Computer Vision Analyze Image Rest API)**
 
 *	Most Best Buy stores already have an in-store surveillance system in place. This makes the proposed solution **readily adoptable**.
-*	The AI extension to the current approach provides the decision makers with **the power to run tests to quantify the impact** of change in pricing, rewards/points, product display and promotions on the customer in-store experience.
-*	The AI solution will achieve this by **measuring footfall traffic** and capturing the **hot spots** within the store to answer key questions such as: Why are customers visiting my store?
-*	Improved visibility on the [trigger questions](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) the customers are entering the store with.
-
-Note: The entire video analytics process will be **anonymized** i.e. customers will NOT be ID’d to protect their privacy. Only their age and gender (as detected by MS Computer Vision) will be identified. Acceptable privacy and security standards will be identified and applied to the analytics process and data storage.
+*	The AI extension to the current approach provides the decision makers with **the power to design tests to quantify the impact** of change in pricing, rewards/points, product display and promotions on the customer in-store experience. This can be tracked by monitoring changes in footfall traffic in areas within the store.
+*	Footfall traffic analytics provides improved visibility on the [trigger questions](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) the customers are entering the store with.
 
 **App Recommender System (Azure Machine Learning)**
 
 *	Personalized shopping experiences are delivered through **tailored product recommendations** to optimally support the customer through the **“active evaluation”** phase to maximize probability of arriving at the [moment of commitment](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf). It will also be designed to trigger new [moments of inspiration](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf)
 
-## Next Steps
-Please refer to the [Sample Dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) illustrating the type of insights our app has the potential to deliver to our target customer (Best Buy).
+## Product Impact Demonstration
+Please refer to the [Sample Dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) illustrating the type of insights our app has the potential to unlock for our target customer i.e. Best Buy.
