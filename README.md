@@ -17,7 +17,7 @@ The success metrics of the proposed AI solution are:
 ## Benefits of Proposed Approach
 Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Moreover, our proposed AI solutions attempts to address the business needs by taking a deep dive into the consumer behaviour. Please refer to the attached Customer Journey Theoretical Framework that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
 
-**Video Analytics (Azure Computer Vision)**
+**Video Analytics (Azure Computer Vision Analyze Image Rest API)**
 
 *	Most (if not all) Best Buy stores already have an in-store surveillance system in place. This makes the proposed solution readily adoptable.
 *	The AI extension to the current approach provides the decision makers with added visibility into the impact of change in pricing, rewards/points, product display and promotions on the customer in-store experience.
