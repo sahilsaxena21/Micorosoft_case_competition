@@ -15,20 +15,20 @@ The success metrics of the proposed AI solution are:
 
 
 ## Benefits of Proposed Approach
-Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Moreover, our proposed AI solutions attempts to address the business needs by taking a deep dive into the consumer behaviour. Please refer to the attached [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
+Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Please refer to the attached [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
 
 **Video Analytics (Azure Computer Vision Analyze Image Rest API)**
 
-*	Most (if not all) Best Buy stores already have an in-store surveillance system in place. This makes the proposed solution readily adoptable.
-*	The AI extension to the current approach provides the decision makers with the power to run tests to **quantify the impact** of change in pricing, rewards/points, product display and promotions on the customer in-store experience.
+*	Most Best Buy stores already have an in-store surveillance system in place. This makes the proposed solution **readily adoptable**.
+*	The AI extension to the current approach provides the decision makers with **the power to run tests to quantify the impact** of change in pricing, rewards/points, product display and promotions on the customer in-store experience.
 *	The AI solution will achieve this by **measuring footfall traffic** and capturing the **hot spots** within the store to answer key questions such as: Why are customers visiting my store?
-*	Improved visibility on the **“trigger questions”** (refer the Framework) the customers are entering the store with.
+*	Improved visibility on the [trigger questions](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) the customers are entering the store with.
 
 Note: The entire video analytics process will be **anonymized** i.e. customers will NOT be ID’d to protect their privacy. Only their age and gender (as detected by MS Computer Vision) will be identified. Acceptable privacy and security standards will be identified and applied to the analytics process and data storage.
 
 **App Recommender System (Azure Machine Learning)**
 
-*	Personalized shopping experiences are delivered through **tailored product recommendations** to optimally support the customer through the **“active evaluation”** phase to maximize probability of arriving at the **“moment of commitment”**. It will also be designed to trigger new **“moments of inspiration”**.
+*	Personalized shopping experiences are delivered through **tailored product recommendations** to optimally support the customer through the **“active evaluation”** phase to maximize probability of arriving at the [moment of commitment](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf). It will also be designed to trigger new [moments of inspiration](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf)
 *	A classification learning based recommender system will match the customer to a curated list of products/services based on features such as customer’s historic buying patterns, buying patterns of other similar users as the customer, and the customer’s search history using the app. 
 
 Note: It is proposed that both of these AI solutions inform each other. For example, the in-store manager will be able to make in-store optimization decisions based on general market trends. Please refer to the [Sample Dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) on the insights unlocked by our proposed app.
