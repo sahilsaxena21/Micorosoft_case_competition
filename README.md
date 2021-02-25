@@ -69,7 +69,7 @@ Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition
 
 ### Content-Based Recommendation Engine Feature
 
-![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/architecture.png)
+![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
 The proposed architecture as illustrated above. The architecture is specifically designed to be scalable. 
 
