@@ -16,19 +16,23 @@ The success metrics of the proposed AI solution are:
 
 ## Benefits of Proposed Approach
 Our value proposition strives to capture the “low-hanging fruits” using AI i.e. high ratio of impact-to-implementation effort. Moreover, our proposed AI solutions attempts to address the business needs by taking a deep dive into the consumer behaviour. Please refer to the attached Customer Journey Theoretical Framework that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
-Video Analytics (MS Computer Vision)
-●	Most (if not all) Best Buy stores already have an in-store surveillance system in place. This makes the proposed solution readily adoptable.
-●	The AI extension to the current approach provides the decision makers with added visibility into the impact of change in pricing, rewards/points, product display and promotions on the customer in-store experience.
-●	The AI solution will achieve this by measuring footfall traffic and capturing the hot spots within the store to answer key questions such as: Why are customers visiting my store?
-●	Improved visibility on the “trigger questions” (refer the Framework) the customers are entering the store with.
-●	Please refer to the example dashboard for an illustration of the insights planned to be provided by our video analytics solution
+
+**Video Analytics (Azure Computer Vision)**
+
+*	Most (if not all) Best Buy stores already have an in-store surveillance system in place. This makes the proposed solution readily adoptable.
+*	The AI extension to the current approach provides the decision makers with added visibility into the impact of change in pricing, rewards/points, product display and promotions on the customer in-store experience.
+*	The AI solution will achieve this by measuring footfall traffic and capturing the hot spots within the store to answer key questions such as: Why are customers visiting my store?
+*	Improved visibility on the “trigger questions” (refer the Framework) the customers are entering the store with.
+*	Please refer to the example dashboard for an illustration of the insights planned to be provided by our video analytics solution
 
 Note: The entire video analytics process will be anonymized i.e. customers will NOT be ID’d to protect their privacy. Only their age and gender (as detected by MS Computer Vision) will be identified. Acceptable privacy and security standards will be identified and applied to the analytics process and data storage.
-App Recommender System (Azure ML)
-●	Personalized shopping experiences are delivered through tailored product or service recommendations to optimally support the customer through the “active evaluation” phase to maximize probability of arriving at the “moment of commitment” (refer the Framework). It will also be designed to trigger new “moments of inspiration”.
-●	This will be achieved by using classification learning based recommender system which will match the customer to a curated list of products/services based on features such as customer’s historic buying patterns, buying patterns of other similar users as the customer, and the customer’s search history using the app. MS Personalizer will also be trained to automatically scrape popular technology websites such as (but not limited to) Techmeme, Recode, TechCrunch and VentureBeat. Using a text-mining similiarity technique (e.g. K-means), it will automatically detect technology trends and be used as an additional feature in the app recommender system. 
 
-Note: It is proposed that both of these AI solutions inform each other. For example, the in-store manager will be able to make in-store optimization decisions based on general market trends . Please refer to the architecture diagram for more details.
+**App Recommender System (Azure Machine Learning)**
+
+*	Personalized shopping experiences are delivered through tailored product or service recommendations to optimally support the customer through the “active evaluation” phase to maximize probability of arriving at the “moment of commitment” (refer the Framework). It will also be designed to trigger new “moments of inspiration”.
+*	This will be achieved by using classification learning based recommender system which will match the customer to a curated list of products/services based on features such as customer’s historic buying patterns, buying patterns of other similar users as the customer, and the customer’s search history using the app. 
+
+Note: It is proposed that both of these AI solutions inform each other. For example, the in-store manager will be able to make in-store optimization decisions based on general market trends. Please refer to the Sample Dashboard on the insights unlocked by our proposed app.
 4.	What data will be used?
 
 The following data will be used as input to the proposed AI solution:
