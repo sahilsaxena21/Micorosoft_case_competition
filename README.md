@@ -32,7 +32,7 @@ The following data will be used as input to the proposed AI solution:
 
 The following product features were selected for the Minimum Viable Product (MVP):
 
-*	Personalizer App: Recommender Engine to deliver personalized insights
+*	Personalizer App: Classifer model to understand a customer's affinity to a product category
 *	Video Analytics: In-store customer's age and gender, footfall traffic, Store hot zones
 
 ## Technical Implementation Overview
