@@ -1,5 +1,5 @@
 # Microsoft Case Competition
-<sub>Team Result: Top 15% out of 300+ app prototype submissions</sub>
+<sub>Team Result: Top 15% out of 300+ submissions</sub>
 
 ## Business Problem
 
