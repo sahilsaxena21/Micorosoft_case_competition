@@ -65,7 +65,7 @@ For demonstration purposes, our app uses a synthetic dataset adapted from the Cr
 ### Video Analytics Feature
 Please refer to the [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
 
-![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/computer_vision_api_output.JPG)
+![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/sample_image_read.png)
 
 As illustrated in the above figure, **Azure's Computer Vision Analyze Image Rest API** is able to extract the following metadata from the sample image provided:
 *	the number of people from a given image
