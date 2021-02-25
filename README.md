@@ -34,22 +34,22 @@ Target Customer: Best Buy Canada
 
 ![Prototype Architecture](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
-As per the proposed architecture, the following Azure services are used in the app:
+As per the proposed architecture illustration above, the following Azure services are utilized:
 
-* **Azure Blob Storage** is a storage service optimized for storing massive amounts of unstructured data. The input data is stored here.
-* **Azure Databricks** is a managed Apache Spark cluster where model training and evaluating is performed.
-* **Azure Machine Learning service** is used in this scenario to register the machine learning model.
-* **Azure Container Registry** is used to package the scoring script as a container image which is used to serve the model in production.
-* **Azure Kubernetes Service** is used to deploy the trained models to web or app services.
+* **Azure Blob Storage**: as a storage service optimized for storing massive amounts of unstructured data
+* **Azure Databricks**: where model training and evaluating is performed
+* **Azure Machine Learning service**: to register the machine learning model
+* **Azure Container Registry**: to package the scoring script as a container image used to serve the model in production
+* **Azure Kubernetes Service**: to deploy the trained models to web or app services
 
 ### Content-Based Recommendation Engine Feature
 
-Please refer to the two notebooks as follows:
+Please refer to the two notebooks demonstrating technical feasbility of this feature as below:
 1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Service** 
 
 ### Video Analytics Feature
-Please refer to the [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
+Please refer to the [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) demonstrating technical feasibility of this feature.
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/sample_image_read.png)
 
