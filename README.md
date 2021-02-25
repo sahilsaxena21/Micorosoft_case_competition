@@ -3,7 +3,7 @@ Teams were challenged to envision an AI use case within the retail and ecommerce
 
 The product was judged in various categories including **orginality**, **technical feasibility** and **impact potential**.
 
-Our Team's Result: Top 15% out of 300+ submissions
+Team Standing: Top 15% out of 300+ submissions
 
 # Our Team's Submission
 
