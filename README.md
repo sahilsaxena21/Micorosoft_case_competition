@@ -58,7 +58,7 @@ As a demonstration of the technical feasibility of our proposed solution, we use
 | Classification | 0.83 | 0.83 | 0.83  |
 
 ### Video Analytics Feature
-Please refer to the [notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
+Please refer to the [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for the code implementing this app feature
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/computer_vision_api_output.JPG)
 
@@ -83,6 +83,5 @@ Note: The entire video analytics process will be **anonymized** i.e. customers w
 
 *	Personalized shopping experiences are delivered through **tailored product recommendations** to optimally support the customer through the **“active evaluation”** phase to maximize probability of arriving at the [moment of commitment](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf). It will also be designed to trigger new [moments of inspiration](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf)
 
-
-## Insights
-Please refer to the [sample dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) that visualizes the insights gathered by features described below.
+## Product Vision
+Please refer to the [Sample Dashboard](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Sample%20Dashboard.pdf) that illustrates the potential features that can be added to the app and the insights it'll provide to our target customer.
