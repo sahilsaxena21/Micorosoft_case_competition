@@ -36,11 +36,11 @@ Target Customer: Best Buy Canada
 
 As per the proposed architecture illustration above, the following Azure services are utilized:
 
-* **Azure Blob Storage**: as a storage service optimized for storing massive amounts of unstructured data
-* **Azure Databricks**: where model training and evaluating is performed
-* **Azure Machine Learning service**: to register the machine learning model
-* **Azure Container Registry**: to package the scoring script as a container image used to serve the model in production
-* **Azure Kubernetes Service**: to deploy the trained models to web or app services
+* **Azure Blob Storage**
+* **Azure Databricks**
+* **Azure Machine Learning service**
+* **Azure Container Registry**
+* **Azure Kubernetes Service**
 
 ### Content-Based Recommendation Engine Feature
 
