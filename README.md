@@ -3,7 +3,7 @@ In this competition, teams were challenged to envision a revolutionary idea with
 
 The product was judged in five categories including **orginality**, **technical feasibility** and **impact potential**.
 
-<sub>Team Result: Top 15% out of 300+ submissions</sub>
+Team Result: Top 15% out of 300+ submissions
 
 ## Business Opportunity
 
