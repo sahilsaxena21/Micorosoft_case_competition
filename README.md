@@ -31,7 +31,7 @@ For this purposes of this competition, the input data is assumed to be available
 | Proposed AI Solution | Input Data  | How Feasbility is Demonstrated  |
 | ---   | --- | --- |
 | Video Analytics |  Images from video recordings gathered from in-store surveillance system | From a sample image, automatically extract customer's age, gender, and the location of the detected person within the store. |
-| Mobile App Product Recommendations | Historic customer purchase data (via. the mobile app), product SKU and its product category | Probabilistic classifier that ranks a customer's affinity to each product category |
+| Mobile App Product Recommendations | Historic customer app click data | Probabilistic classifier that ranks a customer's affinity to each product category |
 
 ### Prototype Architecture
 
@@ -49,18 +49,22 @@ The architecture uses the following Azure services:
 
 
 ### Video Analytics Feature
-Please refer to this [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) demonstrating technical feasibility of the in-store video analytics feature.
+Please refer to this [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for code implementation details.  
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/sample_image_read.png)
 
-As illustrated in the above figure, **Azure's Computer Vision Analyze Image Rest API** is able to extract the following metadata from the [sample image](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/img_1_jpeg.jpg) provided:
+From the above figure, **Azure's Computer Vision Analyze Image Rest API** is able to extract the following metadata from the [sample image](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/img_1_jpeg.jpg) provided:
 * age and gender of detected individuals in the input image
 *	the location of the person within the store using bounding box coordinates. This is then mapped to particular areas within the store.
 
+We assume that such images are available to be collected from the in-store surveillance system within Best Buy. Provided image availability and image quality assumptions, as seen from the above figure, Azure's Computer Vision (via. its face detection tool) is capable of parsing the image to deliver the intended metadata. In this way, this prototype demonstrates technical feasibiility for the video analytics feature.  
+
 ### Content-Based Recommendation Engine Feature
-Please refer to the two notebooks below implementing the app recomendation engine:
+Please refer to the two notebooks below for code implementation details:
 1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model that ranks a customer's affinity to product categories
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Services** 
+
+The above notebooks provides a simple content-based recommendation engine model using the synthetic Criteo dataset. It uses a LightGBM model that provides a probabilistic classification model aimed to rank a customer's affinity to a product category based on their historic click data throught the mobile app. This model of course, can be readily extended to use collaborative filtering approaches (e.g. item-item similarity or user-user similarity) based on historic purchases, click data and historic search terms through the app which has the closest match to product SKU descriptions. In this way, the app demonstrates technical feasibiility of implementation of this feature for our target customer, Best Buy.
 
 ## Theoretical Underpinnings of Proposed Solution
 Please refer to the [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
