@@ -47,11 +47,6 @@ The architecture uses the following Azure services:
 * **Azure Container Registry**
 * **Azure Kubernetes Service**
 
-### Content-Based Recommendation Engine Feature
-
-Please refer to the two notebooks below implementing the app recomendation engine:
-1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model that ranks a customer's affinity to product categories
-2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Services** 
 
 ### Video Analytics Feature
 Please refer to this [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) demonstrating technical feasibility of the in-store video analytics feature.
@@ -61,6 +56,11 @@ Please refer to this [Notebook](https://github.com/sahilsaxena21/case_competitio
 As illustrated in the above figure, **Azure's Computer Vision Analyze Image Rest API** is able to extract the following metadata from the [sample image](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/img_1_jpeg.jpg) provided:
 * age and gender of detected individuals in the input image
 *	the location of the person within the store using bounding box coordinates. This is then mapped to particular areas within the store.
+
+### Content-Based Recommendation Engine Feature
+Please refer to the two notebooks below implementing the app recomendation engine:
+1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model that ranks a customer's affinity to product categories
+2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Services** 
 
 ## Theoretical Underpinnings of Proposed Solution
 Please refer to the [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
