@@ -7,34 +7,39 @@ Team Standing: Top 15% out of 300+ submissions
 
 # Our Team's Submission
 
-The following provides a summary of our team's selected AI use case, and provides an overview of our technical impelementation.
+The following provides a summary of our team's AI use case, and provides an overview of our technical impelementation.
 
 ## Business Opportunity
 
-Target Customer: Best Buy Canada
+Our target customer is Best Buy Canada. The following table provides an overview of how AI extends the current analytical capabilities of Best Buy.
 
 | Business Opportunity | Status Quo  | Proposed AI Solution  |
 | ---   | :-: | :-: |
 | Understand the quality of customer in-store experience | In-store sales data | Combine with in-store video analytics |
 | Personalize the customer experience through mobile app | Not addressed | Recommender system in mobile app |
 
-## Project Success Metrics
+## Success Metrics
+This solution is aimed to impact the following business growth metrics:
 
 1)	Maximize conversion rate 
 2)	Maximize total ticket from the sale
 
 ## Technical Implementation Overview
+The following table provides an overview of the team's approach to demonstrate technical feasibility of the prototype app.
+For this purposes of this competition, the input data is assumed to be available by our customer, Best Buy.
 
-| Proposed AI Solution | Input Data  | Demonstrating Technical Feasbility  |
+| Proposed AI Solution | Input Data  | How Feasbility is Demonstrated  |
 | ---   | --- | --- |
-| Video Analytics |  Images from video recordings gathered from the in-store surveillance system | Extract in-store customer's age, gender, and the location of the detected person within the store, mapped to pre-defined sections of the store (e.g isle #, cashier queues etc.) |
-| Mobile App Product Recommendations | Historic customer purchase data through mobile app, product listing with detailed descriptions | Probabilistic classifier that ranks a customer's affinity to product categories |
+| Video Analytics |  Images from video recordings gathered from in-store surveillance system | From a sample image, automatically extract customer's age, gender, and the location of the detected person within the store. |
+| Mobile App Product Recommendations | Historic customer purchase data (via. the mobile app), product SKU and its product category | Probabilistic classifier that ranks a customer's affinity to each product category |
 
 ### Prototype Architecture
 
+The architecutre used in this prototype is as illustrated below.
+
 ![Prototype Architecture](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/prototype_architecture.png)
 
-The architecture employed to demonstrate technical feasbility of this idea is as illustrated above. The protytype architecture uses the following Azure services:
+The architecture uses the following Azure services:
 
 * **Azure Blob Storage**
 * **Azure Databricks**
@@ -44,12 +49,12 @@ The architecture employed to demonstrate technical feasbility of this idea is as
 
 ### Content-Based Recommendation Engine Feature
 
-Please refer to the two notebooks demonstrating technical feasbility of this feature as below:
+Please refer to the two notebooks below implementing the app recomendation engine:
 1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model that ranks a customer's affinity to product categories
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Services** 
 
 ### Video Analytics Feature
-Please refer to the [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) demonstrating technical feasibility of this feature.
+Please refer to this [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) demonstrating technical feasibility of the in-store video analytics feature.
 
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/sample_image_read.png)
 
