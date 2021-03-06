@@ -31,7 +31,7 @@ For this purposes of this competition, the input data is assumed to be available
 | Proposed AI Solution | Input Data  | How Feasbility is Demonstrated  |
 | ---   | --- | --- |
 | Video Analytics |  Images from video recordings gathered from in-store surveillance system | From a sample image, automatically extract customer's age, gender, and the location of the detected person within the store. |
-| Mobile App Product Recommendations | Historic customer app click data | Develop an ML Classifier that predicts a customer's affinity to each product category |
+| Mobile App Product Recommendations | Historic customer app click data | Deploy an ML Classifier simulated to predict a customer's affinity score to each product category |
 
 ### Prototype Architecture
 
