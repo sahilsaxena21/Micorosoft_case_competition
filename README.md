@@ -61,14 +61,14 @@ We assume that such images are available to be collected from the in-store surve
 
 ### Content-Based Recommendation Engine Feature
 Please refer to the two notebooks below for code implementation details:
-1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model that ranks a customer's affinity to product categories
+1) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/mmlspark_lightgbm_prototype.ipynb) for collecting the synthetic dataset and training a **LightGBM** classifer model that ranks a customer's affinity to product categories [1]
 2) [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/lightgbm_prototype.ipynb) for deploying the model on **Azure Kubernetes Services** 
 
-Our notebooks above walks through the process of ML model training and evaluation. However, please note that for the purposes of demonstrating workability of our proposed solution for this competition, we train an arbitrary machine learning model (in this case, a LightGBM) on a synthetic dataset, making our model and its performance results meaningless. However, we describe the intention of our model in a real world setting as below.
+[1] Please note that for the purposes of demonstrating workability of our proposed solution for this competition, we train an _arbitrary_ machine learning model (in this case, a LightGBM) on a synthetic dataset, making our model and its performance results meaningless. However, we describe the intention of our model in a real world setting as below.
 
 [Image_file](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/recommendation_intent.JPG)
 
-The above illustration demonstrates how we determine a customer's affinity to a product category (based on their historic click data and purchases made through the mobile app) and subsequently make product recommendations. This model can be readily extended to include actual product SKUs instead of product categories. this model can be readily improved. Possible areas of improvement include use of collaborative filtering (e.g. item-item similarity or user-user similarity) based approaches. Moreover, the dataset used by the model can be extended to also include customer's historic purchases and historic search terms. In this way, the recommender enginer can deliver product recommendations that more closely aligns with the customer activity on the mobile app.
+The above illustration demonstrates how we determine a customer's affinity to a product category (based on their historic click data and purchases made through the mobile app) and use this to subsequently make product recommendations.
 
 ## Theoretical Underpinnings of Proposed Solution
 Please refer to the [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
