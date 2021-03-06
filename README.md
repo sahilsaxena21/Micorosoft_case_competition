@@ -66,7 +66,7 @@ Please refer to the two notebooks below for code implementation details:
 
 [1] Please note that for the purposes of demonstrating workability of our proposed solution for this competition, we train an _arbitrary_ machine learning model (in this case, a LightGBM) on a synthetic dataset, making our model and its performance results meaningless. However, we describe the intention of our model in a real world setting as below.
 
-[Image_file](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/recommendation_engine_intent.JPG)
+![Image_file](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/recommendation_engine_intent.JPG)
 
 The above illustration demonstrates how we determine a customer's affinity to a product category (based on their historic click data and purchases made through the mobile app) and use this to subsequently make product recommendations.
 
