@@ -51,13 +51,13 @@ The architecture uses the following Azure services:
 ### Video Analytics Feature
 Please refer to this [Notebook](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/image_analytics.ipynb) for code implementation details.  
 
+
+
+To demonstrate feasibiility, we developed an image parsing tool using **Azure's Computer Vision Analyze Image Rest API**. We then test this tool using a [Test Image](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/img_1_jpeg.jpg) which is intended to resemble the type of images that will be supplied to the app in a real-world application.
+
+The figure below shows an illustration of that test image and resultant metadata outputted by our code. While this imulated test demonstrates that our prototype is capable of generating the intended metadata, further tests are recommended. This includes testing to further ascertain the app's robustness to image blur (e.g. caused by movement by people) and image quality considerations (e.g. clarity of the captured facial features). These tests are recommended to be performed directly using the input data from the source (i.e. images collected from Best Buy's in-store video surveillance system) to match the real-world setting as much as possible.
+
 ![Video Analytics](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/images/sample_image_read.png)
-
-From the above figure, **Azure's Computer Vision Analyze Image Rest API** is able to extract the following metadata from the [sample image](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/img_1_jpeg.jpg) provided:
-* age and gender of detected individuals in the input image
-*	the location of the person within the store using bounding box coordinates. This is then mapped to particular areas within the store.
-
-We assume that such images are available to be collected from the in-store surveillance system within Best Buy. Provided image availability and image quality assumptions, as seen from the above figure, Azure's Computer Vision (via. its face detection tool) is capable of parsing the image to deliver the intended metadata. In this way, this prototype demonstrates technical feasibiility for the video analytics feature.  
 
 ### Content-Based Recommendation Engine Feature
 Please refer to the two notebooks below for code implementation details:
@@ -70,7 +70,7 @@ Please refer to the two notebooks below for code implementation details:
 
 The above illustration demonstrates how we determine a customer's affinity to a product category (based on their historic click data and purchases made through the mobile app) and use this to subsequently make product recommendations.
 
-## Theoretical Underpinnings of Proposed Solution
+## Impact Potential
 Please refer to the [Customer Journey Theoretical Framework](https://github.com/sahilsaxena21/case_competition_microsoft/blob/master/Customer%20Journey%20Theoretical%20Framework.pdf) that forms the basis of our proposed AI solution. Reference to this Framework is made in the discussion below.
 
 **Video Analytics (Azure Computer Vision Analyze Image Rest API)**
